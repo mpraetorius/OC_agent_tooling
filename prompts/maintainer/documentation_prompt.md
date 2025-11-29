@@ -1,0 +1,2 @@
+I want you to document the current repo in a single markdown file. Do not summarise but simply capture the relevant data from the various files in the repo and save them in an orderly way in the markdown file. The purpose is to provide context for a discussion/brainstorming session for future improvements. Save the file in @documentation/ Called the list tool with the following input: {"path":"D:\\Github\\OC_agent_template\\documentation\\"}D:\Github\OC_agent_template\documentation/
+  .gitkeep

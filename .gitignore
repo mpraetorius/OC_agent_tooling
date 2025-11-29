@@ -1,0 +1,5 @@
+# System specific
+.DS_Store
+Thumbs.db
+
+# Project specific
