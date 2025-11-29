@@ -1,14 +1,33 @@
-# System Context
+# Environmental Context
 
-## Operational Environment
-*   **OS:** [e.g. Windows 11]
-*   **Shell:** [e.g. PowerShell Core]
-*   **Primary Languages:** [e.g. Python 3.11]
+## Operating System & Shell
+- **OS:** Windows
+- **Shell:** PowerShell
 
-## Project Constraints
-*   **Root Directory:** `target_data/` (Symlinked)
-*   **Coding Standards:** [e.g. PEP8, CamelCase]
+## JavaScript Environment
+- **Runtime:** Node.js 18+ (LTS)
+- **Package Manager:** npm
+- **Target:** Pure JavaScript (no Python dependencies)
 
-## External Services & Secrets
-*(Do not store actual secrets here, only references)*
-*   [e.g. Uses OpenAI API via Env Var]
+## n8n Server Configuration
+- **Server URL:** http://10.1.1.101:5678/
+- **Authentication:** None (internal network)
+- **Status:** Already running
+
+## Development Standards
+- **Language:** ES6+ JavaScript
+- **Style:** Standard Node.js conventions
+- **Error Handling:** 3-retry mechanism for network operations
+- **Documentation:** JSDoc comments for tool functions
+
+## Project Structure
+- **Tool Definitions:** `.opencode/tool/*.js`
+- **Scripts:** `.opencode/scripts/`
+- **Output Target:** `documentation/`
+- **Architecture:** Following "Hybrid Agentic Tooling" pattern
+
+## Integration Requirements
+- **Execution Modes:** Both synchronous and asynchronous as specified
+- **Output Format:** JSON responses with specific keys (content/markdown)
+- **Testing:** Full end-to-end testing required
+- **User Acceptance:** Final sign-off required

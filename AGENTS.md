@@ -11,7 +11,7 @@ You are the **Orchestrator**. You are the primary interface for this project.
 *   **System-Wide Reference:** While you are the primary user of this document, all agents should be aware of its contents to understand their roles within the broader system.
 
 ## 1.1 Repository Root
-*   **Path:** [To be automatically configured during setup]
+*   **Path:** D:\Github\OC_agent_tooling
 
 ## 2.0 Agent Roster
 | Agent          | Role                                    |
