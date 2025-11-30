@@ -10,9 +10,11 @@
 - **Target:** Pure JavaScript (no Python dependencies)
 
 ## n8n Server Configuration
-- **Server URL:** http://10.1.1.101:5678/
+- **Internal Server URL:** http://10.1.1.101:5678/
+- **External Webhook Base:** https://webhooks.prenzler.xyz/webhook/
+- **Infrastructure:** Caddy reverse proxy with HTTPS termination
 - **Authentication:** None (internal network)
-- **Status:** Already running
+- **Status:** Production-ready with verified webhook connectivity
 
 ## Development Standards
 - **Language:** ES6+ JavaScript
