@@ -24,6 +24,16 @@
         "bash": "ask"
       }
     },
+    "Maintainer": {
+      "description": "Quality Auditor and Repo Maintainer",
+      "model": "openrouter/anthropic/claude-opus-4.5",
+      "prompt": "{file:agent/Maintainer.md}",
+      "mode": "primary",
+      "permission": {
+        "edit": "ask",
+        "bash": "ask"
+      }
+    },
     "Scribe": {
       "description": "Implementation Assistant",
       "model": "zai/glm-4.6",
