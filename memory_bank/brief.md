@@ -5,13 +5,15 @@ Develop 4 integrated tools that bridge OpenCode agents with n8n workflows, follo
 
 ## 2.0 Tool Specifications
 
-### 2.1 Tool 1: Documentation Development Tool (docs_develop)
+### 2.1 Tool 1: Documentation Development Tool (docs_develop_llms)
 **Purpose:** Generate structured summaries of software packages for coding agent reference
-**Input:** Software package name (e.g., "OpenCode", "n8n", "Docker")
+**Input:** llms.txt URL (e.g., "https://www.langflow.org/llms.txt", "https://github.com/example/repo/blob/main/llms.txt")
+**Process:** Hybrid approach using llms.txt + selective detail fetching
 **Output:** Structured Markdown documentation including:
 - Software purpose and overview
 - Key concepts and terminology
 - Documentation index with links to detailed information
+- Section-based navigation with heading hierarchies
 **Execution Mode:** Asynchronous (fire-and-forget)
 **Success Criteria:** Agent can understand "big picture" without exhaustive details and provides guidance on where the agent can find more details.
 
