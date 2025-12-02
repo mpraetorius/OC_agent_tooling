@@ -10,6 +10,7 @@
 - [Story 1: n8n_listener.js Implementation](./E01_S01_log.md) - ✅ Complete
 - [Story 2: docs_develop_llms Implementation](./E01_S02_log.md) - ✅ Complete (Pending User Testing)
 - [Story 3: n8n Workflow Design](./E01_S03_log.md) - ✅ Complete (Specifications Ready)
+- [Story 4: Test End-to-End Functionality](./E01_S04_log.md) - 🚧 In Progress
 
 ## Epic Outcome
 Successfully implemented a complete async documentation development pipeline with:

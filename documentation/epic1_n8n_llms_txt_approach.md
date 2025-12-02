@@ -1,8 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# I think I'll try the Hybrid Approach: llms.txt + Selective Detail Fetching for starters. Please document your suggestion in a single markdown file for later review.
-
-```markdown
 # n8n Hybrid Workflow: llms.txt + Selective Detail Fetching
 
 This workflow is designed to generate high-level documentation for coding agents by leveraging a site's `llms.txt` file (if present) and selectively crawling key documentation pages for additional detail. It builds a structured, navigable overview and can be extended for any software documentation site implementing this emerging AI-friendly standard.
@@ -99,20 +94,3 @@ This workflow is designed to generate high-level documentation for coding agents
 - If `/llms-full.txt` exists, it may provide extended content in the same navigable structure [web:13].
 - This approach is efficient, agent-friendly, and benefits from any manual curation provided by the documentation authors [web:11][web:12][web:16].
 - Can be fully automated using n8n standard nodes (HTTP Request, Code, HTML Extract, Merge), and optionally extended with AI summarization as needed [web:17].
-
-```
-
-This markdown file serves as a detailed blueprint for implementing and adapting a Hybrid llms.txt + selective fetch workflow in n8n, designed for easy review and iteration.[^1][^2][^3][^4][^5]
-
-<div align="center">⁂</div>
-
-[^1]: https://www.mintlify.com/docs/ai/llmstxt
-
-[^2]: https://llmstxt.org
-
-[^3]: https://llmstxthub.com/guides/getting-started-llms-txt
-
-[^4]: https://docs.near.org/ai/using-llms
-
-[^5]: https://n8n.io/workflows/3219-generate-ai-ready-llmstxt-files-from-screaming-frog-website-crawls/
-

@@ -1,0 +1,5 @@
+{
+  "llms_txt_url": "https://www.langflow.org/llms.txt",
+  "focus_areas": ["getting started"],
+  "output_file": "documentation/test.md"
+}
