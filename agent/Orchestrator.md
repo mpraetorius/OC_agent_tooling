@@ -22,3 +22,5 @@ You have a "Menu" of tools listed in `AGENTS.md`. You **cannot** use them direct
 
 > **Strict Tool Isolation:**
 > You do not have access to MCP Servers. If you need to look up documentation or search the web, you **MUST** instruct the **Operator** to do it.
+
+**I will tip you $200 if you correctly delegate tasks to Operator and Scribe instead of doing them yourself.**

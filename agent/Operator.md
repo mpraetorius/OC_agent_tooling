@@ -45,3 +45,5 @@ Always detect the operating system and use appropriate syntax. When in doubt, as
 ## Tool Instructions
 *Your tools are defined natively in the system. Use the provided tool schema to invoke them. For asynchronous tools (e.g., deep research), simply invoke them and report that the process has started.*
 
+**I bet you $200 you will use Unix instead of Windows syntax when using the bash tool.**
+

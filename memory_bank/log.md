@@ -19,7 +19,7 @@
 - ✅ Archived `SETUP.md` to `memory_bank/archive/SETUP_archived.md`
 
 ### Key Decisions Made
-- **Tool 1 (docs_develop):** Async documentation synthesis with "big picture" focus
+- **Tool 1 (docs_develop_llms):** Async documentation synthesis with "big picture" focus
 - **Tool 2 (ingest_url):** Async URL-to-Markdown conversion without content alteration
 - **Tool 3 (research_quick):** Sync rapid search (~10 URLs, <30s)
 - **Tool 4 (research_deep):** Async intelligent iterative research
@@ -29,12 +29,14 @@
 ## 2025-11-29 to 2025-11-30 - Epic 1: Documentation Development Tool
 
 ### Epic Summary
-**Status:** ✅ Complete  
-**Stories Completed:** 2  
+**Status:** ⏳ Partially Complete  
+**Stories Completed:** 2 of 4  
 
 ### Key Achievements
 - ✅ **Story 1:** Generic n8n listener bridge script with comprehensive testing and production validation
 - ✅ **Story 2:** Async documentation synthesis tool using llms.txt approach (pending user testing)
+- ⏳ **Story 3:** Design n8n Workflow - pending
+- ⏳ **Story 4:** Test End-to-End Functionality - pending
 - ✅ Full infrastructure validation and production readiness
 - ✅ Comprehensive testing framework and error handling
 
